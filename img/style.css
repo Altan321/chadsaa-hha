@@ -14,7 +14,7 @@ body {
 }
 
 .heading {
-  padding: 10px;
+  padding: 1 0px;
   height: 100px;
   font-size: 35px;
   color: #ebeced;
@@ -319,3 +319,8 @@ footer .footer-wrapper i {
     width: 1170px;
   }
 } /*# sourceMappingURL=style.css.map */
+@media (max-width: 736px) {
+  .about .about-wrapper .image-about img {
+    display: none;
+  }
+}
